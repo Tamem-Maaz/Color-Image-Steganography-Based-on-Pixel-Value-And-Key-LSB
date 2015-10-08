@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml version="1.0" encoding="utf-8"?> -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whitebackground"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Go"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="36dp" >
+
+        <RadioButton
+            android:id="@+id/emb"
+            android:layout_width="wrap_content"
+            android:layout_height="99dp"
+            android:checked="true"
+            android:text="Embedding" />
+
+        <RadioButton
+            android:id="@+id/extr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Extracting" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/Go"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/radioGroup1"
+        android:background="@drawable/gloss_button_patch"
+        android:text="Go" />
+
+</RelativeLayout>

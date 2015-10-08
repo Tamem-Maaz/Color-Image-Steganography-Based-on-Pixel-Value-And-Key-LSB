@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whitebackground"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    android:visibility="visible"
+    tools:context=".Main" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_weight="3.67"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            android:text="@string/app_title"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/btnOpenImage"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:background="@drawable/gloss_button_patch"
+            android:text="@string/btn_Open" />
+
+        <Spinner
+            android:id="@+id/sprChoose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/txt_Brightness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_Brightness"
+            android:visibility="visible" />
+
+        <SeekBar
+            android:id="@+id/skb_brightness"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="@integer/max_brightness"
+            android:progress="50"
+            android:scrollbars="vertical" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imv_show"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="942.47"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/defaultimage"
+        android:visibility="visible" />
+    
+</LinearLayout>
+

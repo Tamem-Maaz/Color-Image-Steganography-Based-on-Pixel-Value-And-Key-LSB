@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Steganography.iml" filepath="$PROJECT_DIR$/Steganography.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../gridlayout_v7/gridlayout_v7.iml" filepath="$PROJECT_DIR$/../gridlayout_v7/gridlayout_v7.iml" />
+    </modules>
+  </component>
+</project>
+

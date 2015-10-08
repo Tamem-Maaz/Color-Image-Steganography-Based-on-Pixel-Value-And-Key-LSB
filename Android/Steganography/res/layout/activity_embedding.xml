@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whitebackgroundemb"
+    android:gravity="center"
+    tools:context=".Embedding" >
+
+    <Button
+        android:id="@+id/hideText"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/gloss_button_patch"
+        android:enabled="false"
+        android:text="Hide Text" />
+
+    <Button
+        android:id="@+id/saveImage"
+        style="@drawable/gloss_button_patch"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/gloss_button_patch"
+        android:enabled="false"
+        android:text="Save Image" />
+
+    <ImageView
+        android:id="@+id/imgAfter"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imgBefor"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY" />
+
+    <Button
+        android:id="@+id/openImageEmb"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/gloss_button_patch"
+        android:text="Open Image" />
+
+    <Spinner
+        android:id="@+id/chooseAlgo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/myText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" />
+
+    <ImageView
+        android:id="@+id/imgBefor"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/chooseAlgo"
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="95dp"
+        android:layout_toRightOf="@+id/openImageEmb"
+        android:text="Result Image will be showing here"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android:id="@+id/myText"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_above="@+id/hideText"
+        android:layout_alignParentLeft="true"
+        android:ems="10"
+        android:hint="Your text here"
+        android:inputType="textMultiLine" />
+
+</RelativeLayout>

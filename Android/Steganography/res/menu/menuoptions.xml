@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item android:id="@+id/LogOut" android:title="LogOut"
+	    android:icon="@android:drawable/presence_offline"/>
+	<item android:id="@+id/LogoutAndExit" android:title="LogOut And Exit"
+	    android:icon="@android:drawable/presence_offline"/>
+	<item android:id="@+id/ChPass" android:title="Change Password"
+	    android:icon="@android:drawable/presence_offline"/>
+	    
+</menu>
