@@ -14,3 +14,6 @@ Android Program:
 [![Morphological-Image-Processing](https://i.ytimg.com/vi/lfPj6lY7oRU/2.jpg?time=1444341933488)](https://youtu.be/lfPj6lY7oRU)
 
 
+![alt tag](https://raw.githubusercontent.com/Tamem-Maaz/Color-Image-Steganography-Based-on-Pixel-Value-And-Key-LSB/master/The%20Last%20One.jpg)
+
+![alt tag](https://raw.githubusercontent.com/Tamem-Maaz/Color-Image-Steganography-Based-on-Pixel-Value-And-Key-LSB/master/the%20Use%20Case.jpg)
